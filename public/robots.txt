@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bulk-url-checker-check-images-pd-fs.vercel.app/sitemap.xml
