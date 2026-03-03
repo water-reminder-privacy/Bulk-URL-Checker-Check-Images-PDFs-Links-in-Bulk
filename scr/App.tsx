@@ -1,4 +1,5 @@
 import { Route, Switch } from 'wouter';
+import { Analytics } from '@vercel/analytics/react';
 import Layout from './components/Layout';
 import URLChecker from './components/URLChecker';
 import SEOPage from './components/SEOPage';
@@ -294,6 +295,7 @@ export default function App() {
           </div>
         </Route>
       </Switch>
+      <Analytics />
     </Layout>
   );
 }
